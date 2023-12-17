@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['lib/**/*', 'LICENSE.md', 'README.md', 'CHANGELOG.md']
 
-  s.add_dependency 'nokogiri', '~> 1.10', '>= 1.10.3'
+  s.add_dependency 'nokogiri', '>= 1.10.3'
 
   s.metadata['rubygems_mfa_required'] = 'true'
 end
